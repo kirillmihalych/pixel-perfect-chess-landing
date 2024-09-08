@@ -13,6 +13,8 @@ import CarouselMembers from './components/CarouselMembers.vue'
     <DescriptionComponent />
     <CarouselStage />
     <CarouselMembers />
+    <RunningLine />
+    <FooterCompoennt />
   </div>
 </template>
 

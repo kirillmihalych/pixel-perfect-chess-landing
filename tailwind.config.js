@@ -8,10 +8,11 @@ export default {
       },
       fontFamily: {
         'golos-text': ['Golos Text', 'sans-serif'],
-        'merriweather': ['Merriweather', 'serif'],
+        merriweather: ['Merriweather', 'serif'],
       },
       colors: {
         'h-color': '#313131',
+        'dark-grey': '#313131',
       },
     },
   },

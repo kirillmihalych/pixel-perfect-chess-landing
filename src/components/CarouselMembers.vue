@@ -11,7 +11,6 @@
           >Подробнее</a
         >
       </div>
-
       <!-- end of selected member -->
       <!-- controls -->
       <div class="flex gap-3 items-center justify-center">
@@ -85,14 +84,14 @@ const selected_index = ref(0)
 const selected_member = ref(members[selected_index.value])
 const selectMember = () => (selected_member.value = members[selected_index.value])
 
-const doRightSlide = () => {
+function doRightSlide() {
   if (selected_index.value === members.length - 1) {
     selected_index.value = 0
   } else {
     selected_index.value += 1
   }
 }
-const doLeftSlide = () => {
+function doLeftSlide() {
   if (selected_index.value === 0) {
     selected_index.value = members.length - 1
   } else {

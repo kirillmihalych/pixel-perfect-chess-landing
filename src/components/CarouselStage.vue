@@ -36,7 +36,7 @@
             v-for="slide_id in 5"
             :key="slide_id"
             class="w-3 h-3 rounded-full bg-[#D9D9D9]"
-            :class="{ 'bg-[#313131]': isSlideSelected(slide_id - 1) }"
+            :class="{ 'bg-dark-grey': isSlideSelected(slide_id - 1) }"
           ></li>
         </ul>
         <button
